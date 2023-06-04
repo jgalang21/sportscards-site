@@ -6,7 +6,7 @@ function Navigation(){
         <nav className="navigation">
         
             <li> <a href="https://www.ebay.com/"> Our Ebay Store</a></li>
-            <li><a href="test@email.com">Contact us</a></li>
+            <li><a href="mailto:test@email.com">Contact us</a></li>
           
              
         </nav>

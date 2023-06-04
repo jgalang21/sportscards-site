@@ -1,14 +1,19 @@
 * {
   font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background: #353030;
 }
 
 .App {
   text-align: center;
   height: 100%;
   width: 100%;
-  
 }
-
 
 .App-logo {
   height: 40vmin;
@@ -16,9 +21,8 @@
 }
 
 .navigation {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
-
   top: 0;
   left: 0;
   right: 0;
@@ -27,70 +31,79 @@
   padding: 15px;
 }
 
-.stylesheet{
-  position: absolute;
-width: 100%;
-height: 1237px;
-
-background: #353030;
+.stylesheet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
 }
 
-.stylesheet h1{
+.stylesheet h1 {
+  color: white;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 66px;
+  width: 100%;
+  text-align: Center;
+}
 
-  color:white;
-
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 66px;
-text-align: center;
+.container {
+  display: inline;
 
 }
 
-.stylesheet img{
-  padding: 100px;
+.container table{
+  border-spacing: 200px 10px;
 }
 
-.stylesheet h3{
-  color:white;
+.container h2{
+  font-size: 30px;
+  padding-top: 10px;
+  font-style: italic;
+  color: orange;
+  
+}
+
+
+
+.chase{
+  height: 400px;
+  width: 600px;
+  padding-right: 40px;
+  padding-left: 100px;
+  float: left;
+  display: inline;
+}
+
+.stylesheet h3 {
+  margin-top: 30px;
+  color: white;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-
+  padding-bottom: 40px;
+  display: inline;
+  
 }
-
-.stylesheet h4{
-  color:white;
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  text-align: right;
-  right: 40px;
-
-}
-
-.stylesheet img{
-  width: 475px;
-  height: 271px;
-}
-
-
 
 
 .navigation li {
+  float: left;
   list-style: none; /* remove the bullet points */
   margin-right: 20px; /* add some margin between the navigation items */
   font-size: 25px; /* adjust the font size as desired */
   padding: 10px;
   color: white;
+  justify-items: center;
+ }
 
-}
+
+
 a:link {
   text-decoration: none;
   color: white;
@@ -111,34 +124,3 @@ a:active {
   color: white;
 }
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
