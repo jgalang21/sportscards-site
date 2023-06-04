@@ -58,16 +58,36 @@ body {
 
 .container table{
   border-spacing: 200px 10px;
+
+}
+
+.grading img {
+  width: 350px;
+  height: 250px;
 }
 
 .container h2{
   font-size: 30px;
-  padding-top: 10px;
+  padding-top: 15px;
   font-style: italic;
   color: orange;
+  text-align: left;
   
 }
 
+.grading {
+  padding-top: 50px;
+}
+.grading h2 {
+  display: block;
+  padding: 50px;
+  text-align: center;
+
+}
+.grading a {
+  display: inline-block;
+  padding: 70px;
+}
 
 
 .chase{
