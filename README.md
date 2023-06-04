@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Basic Static webpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was a placeholder for the first portion of the Scrimba tutorial. The premium version had a DIY project where you would create 
+a digital business card. Instead, I went ahead and created a static website for a sports card website. This just helped me get comfortable
+with the basics of React.
 
 ## Available Scripts
 
