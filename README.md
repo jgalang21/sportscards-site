@@ -1,8 +1,11 @@
-# Basic Static webpage
+# Basic Static Webpage
 
 This project was a placeholder for the first portion of the Scrimba tutorial. The premium version had a DIY project where you would create 
 a digital business card. Instead, I went ahead and created a static website for a sports card website. This just helped me get comfortable
-with the basics of React.
+with the basics of React and CSS styling.
+
+Here is a preview of the site:
+![image](https://github.com/jgalang21/sportscards-site/assets/22481757/b1adadeb-1a68-446a-af8f-1f550fd495e7)
 
 ## Available Scripts
 
