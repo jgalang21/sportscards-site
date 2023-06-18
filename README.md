@@ -5,7 +5,12 @@ a digital business card. Instead, I went ahead and created a static website for 
 with the basics of React and CSS styling.
 
 Here is a preview of the site:
+
+[Link to the site](https://wondrous-sunburst-1e4918.netlify.app/)
+
 ![image](https://github.com/jgalang21/sportscards-site/assets/22481757/b1adadeb-1a68-446a-af8f-1f550fd495e7)
+
+
 
 ## Available Scripts
 
