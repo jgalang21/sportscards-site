@@ -3,11 +3,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World  - testing to see if this triggers pipeline!!!"'
-                sh '''
-                    echo "Multiline shell steps works too!!?11"
-                    ls -lah
-                '''
+                sh 'echo "Beginning Pipeline...."'
+                sh 'echo "Creating Docker container...."'
+                sh 'docker build --target build -t datajeremy/sports-card-site .'
+
             }
         }
     }
