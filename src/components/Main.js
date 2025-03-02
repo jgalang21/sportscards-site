@@ -6,7 +6,15 @@ import psa from '../images/psa-logo.jpg'
 import sgc from '../images/SGC_White-New.png'
 import beckett from '../images/Beckett-Grading-logo.png'
 
+import Button from 'react-bootstrap/Button';
+
 function Main() {
+
+  const handleClick = () => {
+    console.log("Button has been clicked - Success!");
+  };
+
+
   return (
     <div className="stylesheet">
       <h1>Welcome to Jeremy's cards and collectibles!</h1>
@@ -23,6 +31,9 @@ function Main() {
         
       </div>
       
+      <Button onClick={handleClick}>
+        Click me for testing
+      </Button>
       
       <div className="grading">
         <h2>We do bulk grading as well! Please see the sites below for updated prices!</h2>
