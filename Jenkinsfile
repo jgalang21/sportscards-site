@@ -5,8 +5,9 @@ pipeline {
             steps {
                 sh 'echo "Beginning Pipeline...."'
                 sh 'echo "Creating Docker container...."'
-                sh 'docker build --target build -t datajeremy/sports-card-site .'
-
+                sh 'docker build -t datajeremy/sports-card-site .'
+                sh 'docker tag datajeremy/sports-card-site jgalang21/sports-site-repo'
+                sh 'docker push jgalang21/sports-site-repo'
             }
         }
     }

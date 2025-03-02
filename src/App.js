@@ -11,9 +11,6 @@ function App() {
       
       <Main />
      
-     <button>
-      Click me
-     </button>
 
 
     </div>
